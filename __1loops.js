@@ -29,3 +29,18 @@ while(k>0){
     console.log("while loop value", k);
     k--;
 }
+
+console.log("----------------------------------------")
+
+// for of
+let arr = [1,2,3,4,5];
+
+for(let item of arr){
+    console.log("for of loop value",item);
+}
+
+console.log("---------------------------------------");
+// for in 
+for(let item in arr){
+    console.log("for in loop value", item);
+}
